@@ -104,56 +104,6 @@ const completion = await GptClient.create({
 console.log(completion); // answer
 ```
 
-Using context mode
-
-const completion = await GptClient.create({
-    model: 'gpt-4-0613',
-    temperature: 0.7,
-    systemPrompt: 'You are powerful AI assistant\n',
-    messages: [
-        {
-            role: 'system',
-            messages: 'what is Gpt-Clinet?'
-        },
-        {
-            role: 'system',
-            messages: 'repeat your answer'
-        },
-        {
-            role: 'system',
-            messages: 'Thanks you!'
-        }
-    ]
-});
-
-console.log(completion); // answer
-```
-
-Using streaming mode
-
-```JavaScript
-const completionStream = await GptClient.create({
-    model: 'gpt-4-0613',
-    temperature: 0.7,
-    systemPrompt: 'You are powerful AI assistant\n',
-    messages: [
-        {
-            role: 'system',
-            messages: 'hello world'
-        }
-    ],
-    stream: true
-});
-
-completionStream.on('data', (chunk) => {
-    console.log(chunk);
-});
-
-completionStream.on('end', () => {
-    console.log('Completed!');
-});
-```
-
 ## Contributing
 
 Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request.
