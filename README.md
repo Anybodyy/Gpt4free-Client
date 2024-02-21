@@ -6,7 +6,9 @@ The Gpt4free-Client is a Node.js library that allows you to interact with many a
 
 ## Installation
 
+```bash
 npm install Gpt4free-Client
+```
 
 ## Usage
 ```JavaScript
