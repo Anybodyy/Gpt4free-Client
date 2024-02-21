@@ -68,7 +68,7 @@ const completion = await GptClient.create({
 console.log(completion); // answer
 ```
 
-#### Setting new temperature
+Setting new temperature
 
 ```JavaScript
 const completion = await GptClient.create({
@@ -86,7 +86,7 @@ const completion = await GptClient.create({
 console.log(completion); // answer
 ```
 
-#### Using custom system prompt
+Using custom system prompt
 
 ```JavaScript
 const completion = await GptClient.create({
@@ -104,7 +104,7 @@ const completion = await GptClient.create({
 console.log(completion); // answer
 ```
 
-#### Using context mode
+Using context mode
 
 const completion = await GptClient.create({
     model: 'gpt-4-0613',
@@ -129,7 +129,7 @@ const completion = await GptClient.create({
 console.log(completion); // answer
 ```
 
-#### Using streaming mode
+Using streaming mode
 
 ```JavaScript
 const completionStream = await GptClient.create({
