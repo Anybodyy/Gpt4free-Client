@@ -94,7 +94,7 @@ Using custom system prompt
 const completion = await GptClient.create({
     model: 'gpt-4-0613',
     temperature: 0.7,
-    systemPrompt: 'You're AI copy of DaniilSV, the best brawl stars mods creator',
+    systemPrompt: 'Youre AI copy of DaniilSV, the best brawl stars mods creator',
     messages: [
         {
             role: 'system',
