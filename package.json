@@ -1,0 +1,33 @@
+{
+  "name": "gpt4free-client",
+  "version": "2.0.7",
+  "description": "A powerful Node.js script to communicate with big text AI models (like gpt4 or OpenChat)",
+  "main": "src/index.js",
+  "keywords": [
+    "openai.js",
+    "gpt.js",
+    "openchat.js",
+    "ai.js",
+    "gpt",
+    "gpt4",
+    "g4f",
+    "gpt4free",
+    "openai",
+    "gpt3.5",
+    "gpt-client",
+    "BigAi",
+    "AiBrain",
+    "openchat",
+    "ai"
+  ],
+  "author": {
+    "name": "Anybodyy",
+    "email": "anybodyy69@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "gpt4free-client": "^2.0.7",
+    "stream": "^0.0.2"
+  }
+}
