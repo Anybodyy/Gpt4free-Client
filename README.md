@@ -1,3 +1,4 @@
+# DON'T WORKS AT THE MOMENT
 # Gpt4free-Client
 
 The Gpt4free-Client is a Node.js library that allows you to interact with many artificial intelligence models for free text generation. This library is inspired by gpt4free, developed by @xtekky and created by @Anybody.
